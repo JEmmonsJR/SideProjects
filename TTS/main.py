@@ -35,9 +35,10 @@ def create_tts_from_file_offline(text_file, output_audio_file='output.mp3'):
 
 def main():
     
-    input = "C:\\Github/SideProjects/TTS/test.txt"
+    input_file = input("Please enter input file path: ")
+    output_file = input("Please enter output file path: ")
     
     
-    create_tts_from_file_offline(input, 'file_output.mp3')
+    create_tts_from_file_offline(input_file, output_file)
     
 main()
