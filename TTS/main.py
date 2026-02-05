@@ -34,6 +34,7 @@ def create_tts_from_file_offline(text_file, output_audio_file='output.mp3'):
         print(f"An error occurred: {e}")
 
 def main():
+    
     input = 'C:\Github\SideProjects\TTS\test.txt'
     
     
